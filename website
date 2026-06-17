@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flame Sky Gen Donations</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff4500, #ff8c00);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.tiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tier {
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+button {
+    background: #00c244;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🔥 Flame Sky Gen 🔥</h1>
+    <p>Support the server and help us grow!</p>
+</header>
+
+<div class="container">
+
+    <h2>Donation Tiers</h2>
+
+    <div class="tiers">
+        <div class="tier">
+            <h3>$5</h3>
+            <p>Supporter Rank</p>
+        </div>
+
+        <div class="tier">
+            <h3>$10</h3>
+            <p>VIP Rank</p>
+        </div>
+
+        <div class="tier">
+            <h3>$25</h3>
+            <p>MVP Rank</p>
+        </div>
+
+        <div class="tier">
+            <h3>$50</h3>
+            <p>Legend Rank</p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <a href="https://cash.app/$gabeftb" target="_blank">
+        <button>Donate With Cash App</button>
+    </a>
+
+</div>
+
+</body>
+</html>
